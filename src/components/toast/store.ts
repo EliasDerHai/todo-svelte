@@ -2,7 +2,7 @@ import { writable } from "svelte/store";
 
 export const toasts = writable([]);
 
-export interface Toastable{
+export interface Toastable {
   timeout?: number;
   message: string;
   dismissible?: boolean;

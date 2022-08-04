@@ -7,9 +7,9 @@
 
     const toast = () => {
         const message = todo.done
-            ? `You finished ${todo.description} - Great job!`
+            ? `You finished [${todo.description}] - Great job!`
             : "Not yet done?";
-        addToast({ message, timeout: 750 });
+        addToast({ message, timeout: 1500 });
     };
 </script>
 
